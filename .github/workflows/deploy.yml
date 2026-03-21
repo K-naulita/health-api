@@ -17,11 +17,7 @@ jobs:
           username: naulita
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd health-api || git clone https://github.com/K-naulita/health-api.git
-            cd health-api
-            git pull origin main
-            sudo docker stop api || true
-            sudo docker rm api || true
-            sudo docker rmi health-api || true
-            sudo docker build --no-cache -t health-api .
-            sudo docker run -d -p 5000:5000 --name api health-api
+            sudo docker stop api
+sudo docker rm api
+sudo docker build --no-cache -t health-api .
+sudo docker run -d -p 5000:5000 --name api health-api
