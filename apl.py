@@ -10,7 +10,7 @@ def health():
     return jsonify({
         "nama": "KARTIKA NANA NAULITA",
         "nrp": "5025241021",
-        "status": "UP",
+        "status": "CI/CD WORKING",
         "timestamp": time.strftime('%Y-%m-%d %H:%M:%S'),
         "uptime": int(time.time() - start_time)
     })
