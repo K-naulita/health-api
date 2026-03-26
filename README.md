@@ -327,9 +327,9 @@ http://20.195.8.104:5000/health
 
 
 ## Resource
-https://github.com/MrWhok/penugasan-netics-1-2025/blob/main/README.md
-https://medium.com/@kakamber07/how-to-set-up-ci-cd-with-docker-a-step-by-step-hands-on-guide-c6e180436daa
-https://chatgpt.com/share/69c54300-1224-8324-933a-b8e2349bd23c
+- https://github.com/MrWhok/penugasan-netics-1-2025/blob/main/README.md
+- https://medium.com/@kakamber07/how-to-set-up-ci-cd-with-docker-a-step-by-step-hands-on-guide-c6e180436daa
+- https://chatgpt.com/share/69c54300-1224-8324-933a-b8e2349bd23c
 
 ## Link
 Docker Image:  
