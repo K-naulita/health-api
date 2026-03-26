@@ -206,7 +206,8 @@ Protocol: TCP
 Action: Allow
 ```
 ### 10. Otomatisasi dengan Ansible
-- Instalasi Ansible
+- Instalasi Ansible  
+  Lakukan di Local (exit dari VPS)
 ```
 sudo apt update
 sudo apt install ansible -y
@@ -253,12 +254,9 @@ ansible-playbook -i inventory.ini nginx.yml
 ```
 Akan menginstall Nginx -> Mengatur konfigurasi -> Merestart service
 
-### 11. Pengujian
-a. Melalui Browser
-http://localhost:5000/health  
-
-b. Melalui Terminal
-curl http://localhost:5000/health
+### 11. Pengujian  
+http://20.195.8.104:8080/health
+http://20.195.8.104:5000/health
 
 ### 12. Hasil
 
