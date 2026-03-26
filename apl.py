@@ -7,13 +7,15 @@ start_time = time.time()
 
 @app.route("/health")
 def health():
-    return jsonify({
-        "nama": "KARTIKA NANA NAULITA",
-        "nrp": "5025241021",
-        "status": "CI/CD RUN",
-        "timestamp": time.strftime('%Y-%m-%d %H:%M:%S'),
-        "uptime": int(time.time() - start_time)
-    })
+   print("Endpoint /health diakses!") 
+   
+   return jsonify({
+       "nama": "NAMA KAMU",
+       "nrp": "NRP KAMU",
+       "status": "UP",
+       "timestamp": time.strftime('%Y-%m-%d %H:%M:%S'),
+       "uptime": int(time.time() - start_time)
+   })
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+   app.run(host="0.0.0.0", port=5000)
